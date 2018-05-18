@@ -7,7 +7,7 @@
 * write pipe: bad file descriptor
 
 ### Correcting the problem
-* Ensure that the correct architecture is choosing.
+* Ensure that the correct architecture is chosen.
 
 #### Example:
 
