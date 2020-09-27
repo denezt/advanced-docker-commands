@@ -19,8 +19,9 @@ docker run -it ubuntu #This is an auto selector and might choose wrong architect
 ``` bash
 docker run -it i386/ubuntu #This is an auto selector and might choose wrong architecture
 ``` 
-
-
+``` bash
+docker run --name my-distro -d ubuntu /bin/sh -c "while true; do ping 8.8.8.8; done"
+```
 
 
 
